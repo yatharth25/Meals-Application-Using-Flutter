@@ -88,7 +88,7 @@ const DUMMY_MEALS = const [
     ],
     isGlutenFree: false,
     isVegan: true,
-    isVegetarian: true,
+    isVegeterian: true,
     isLactoseFree: true,
   ),
   Meal(
@@ -116,7 +116,7 @@ const DUMMY_MEALS = const [
     ],
     isGlutenFree: false,
     isVegan: false,
-    isVegetarian: false,
+    isVegeterian: false,
     isLactoseFree: false,
   ),
   Meal(
@@ -148,7 +148,7 @@ const DUMMY_MEALS = const [
     ],
     isGlutenFree: false,
     isVegan: false,
-    isVegetarian: false,
+    isVegeterian: false,
     isLactoseFree: true,
   ),
   Meal(
@@ -183,7 +183,7 @@ const DUMMY_MEALS = const [
     ],
     isGlutenFree: false,
     isVegan: false,
-    isVegetarian: false,
+    isVegeterian: false,
     isLactoseFree: false,
   ),
   Meal(
@@ -219,7 +219,7 @@ const DUMMY_MEALS = const [
     ],
     isGlutenFree: true,
     isVegan: false,
-    isVegetarian: true,
+    isVegeterian: true,
     isLactoseFree: true,
   ),
   Meal(
@@ -255,7 +255,7 @@ const DUMMY_MEALS = const [
     ],
     isGlutenFree: true,
     isVegan: false,
-    isVegetarian: true,
+    isVegeterian: true,
     isLactoseFree: false,
   ),
   Meal(
@@ -286,7 +286,7 @@ const DUMMY_MEALS = const [
     ],
     isGlutenFree: true,
     isVegan: false,
-    isVegetarian: true,
+    isVegeterian: true,
     isLactoseFree: false,
   ),
   Meal(
@@ -319,7 +319,7 @@ const DUMMY_MEALS = const [
     ],
     isGlutenFree: true,
     isVegan: false,
-    isVegetarian: false,
+    isVegeterian: false,
     isLactoseFree: true,
   ),
   Meal(
@@ -368,7 +368,7 @@ const DUMMY_MEALS = const [
     ],
     isGlutenFree: true,
     isVegan: false,
-    isVegetarian: true,
+    isVegeterian: true,
     isLactoseFree: false,
   ),
   Meal(
@@ -402,7 +402,7 @@ const DUMMY_MEALS = const [
     ],
     isGlutenFree: true,
     isVegan: true,
-    isVegetarian: true,
+    isVegeterian: true,
     isLactoseFree: true,
   ),
 ];
