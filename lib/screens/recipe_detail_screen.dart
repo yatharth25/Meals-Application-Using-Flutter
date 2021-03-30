@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:MealsApp/dummy_data.dart';
+import '../dummy_data.dart';
 
 class RecipeDetailScreen extends StatelessWidget {
   static const routeName = '/recipe';
-  @override
+
   Widget buildSectionTitle(BuildContext context, String text) {
     return Container(
         margin: EdgeInsets.symmetric(vertical: 10),
@@ -30,7 +30,7 @@ class RecipeDetailScreen extends StatelessWidget {
   }
 
   Widget build(BuildContext context) {
-    final recipeId = ModalRoute.of(context).settings.arguments as String;
+    final recipeId = ModalRoute.of(context)!.settings.arguments as String?;
     final selectedMeal = DUMMY_MEALS.firstWhere((meal) => meal.id == recipeId);
     return Scaffold(
       appBar: AppBar(
