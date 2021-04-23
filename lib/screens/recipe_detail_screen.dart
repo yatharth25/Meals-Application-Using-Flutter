@@ -4,6 +4,10 @@ import '../dummy_data.dart';
 class RecipeDetailScreen extends StatelessWidget {
   static const routeName = '/recipe';
 
+  final Function toggleFavorite;
+  final Function isFavorite;
+  RecipeDetailScreen(this.toggleFavorite, this.isFavorite);
+
   Widget buildSectionTitle(BuildContext context, String text) {
     return Container(
         margin: EdgeInsets.symmetric(vertical: 10),
@@ -76,6 +80,10 @@ class RecipeDetailScreen extends StatelessWidget {
             ),
           )
         ]),
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(isFavorite(recipeId) ? Icons.star : Icons.star_border),
+        onPressed: () => toggleFavorite(recipeId),
       ),
     );
   }
